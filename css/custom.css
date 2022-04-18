@@ -5,36 +5,6 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-/* @font-face {
-	font-family: "Open Sans";
-	src: url("fonts/OpenSans-Regular.ttf");
-	src: url("fonts/OpenSans-Regular.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: "Open Sans Medium";
-	src: url("fonts/OpenSans-Medium.ttf");
-	src: url("fonts/OpenSans-Medium.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: "Open Sans Semi Bold";
-	src: url("fonts/OpenSans-SemiBold.ttf");
-	src: url("fonts/OpenSans-SemiBold.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: "Open Sans Bold";
-	src: url("fonts/OpenSans-Bold.ttf");
-	src: url("fonts/OpenSans-Bold.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: "Open Sans Extra Bold";
-	src: url("fonts/OpenSans-ExtraBold.ttf");
-	src: url("fonts/OpenSans-ExtraBold.ttf") format("truetype");
-} */
-
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
