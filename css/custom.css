@@ -5,10 +5,15 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+@font-face {
+    font-family: "CustomFont";
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+
 body {
     line-height: 1.5;
     color: #142441;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'CustomFont', sans-serif !important;
 }
 
 a:hover {
