@@ -6,7 +6,7 @@
 -----------------------------------------------------------------*/
 
 @font-face {
-	font-family: "CustomFont";
+	font-family: "Open Sans";
 	src: url("fonts/OpenSans-Regular.ttf");
 	src: url("fonts/OpenSans-Regular.ttf") format("truetype");
 	font-weight: normal;
@@ -16,7 +16,7 @@
 body {
     line-height: 1.5;
     color: #142441;
-    font-family: 'CustomFont', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 a:hover {
