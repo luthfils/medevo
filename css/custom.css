@@ -19,6 +19,14 @@ body {
     font-family: 'Open Sans', sans-serif !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 30px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
 a:hover {
     color: #03D9CD;
 }
