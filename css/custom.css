@@ -529,7 +529,17 @@ h2 {
     background-color: #004BBB !important;
     color: #FFF !important;
     text-decoration: none;
-    border: 1px solid #004BBB;
+    border: 0px solid #004BBB;
+}
+
+.owl-carousel {
+    --owl-nav-sizes: 60px;
+}
+
+.owl-carousel .owl-nav [class*=owl-] {
+    border: 0px solid rgba(0,0,0,0.2);
+    color: #142441;
+    box-shadow: 0px 10px 70px rgb(3 27 78 / 25%);
 }
 
 .partner .partner-type .tab-nav li a {
