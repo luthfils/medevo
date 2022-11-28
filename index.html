@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700|IBM+Plex+Serif:300,400,500,600&display=swap" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.cdnfonts.com/css/open-sans" rel="stylesheet" type="text/css">
+                
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<!-- One Page Module Specific Stylesheet -->
+	<link rel="stylesheet" href="one-page/onepage.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="one-page/css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Medevo</title>
+
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+	<style>
+		.font-secondary { font-family: 'IBM Plex Serif', serif !important; }
+		.bgchanger { background-color: #EEE; }
+
+		#oc-watch .owl-item,
+		#oc-watch .owl-item img {
+			width: auto;
+			height: auto;
+			margin: 0 auto;
+		}
+
+		#oc-watch.owl-carousel .owl-stage {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		#oc-watch .owl-dots { bottom: 20px; }
+
+		#oc-watch .owl-dots { counter-reset: dots; }
+
+		#oc-watch.owl-carousel .owl-dots .owl-dot {
+			margin: 0 4px;
+			width: auto;
+			height: auto;
+			opacity: .3 !important;
+			border: none;
+			background-color: transparent !important;
+			font-family: 'IBM Plex Serif', serif;
+		}
+
+		#oc-watch .owl-dot:after {
+			content: "";
+			position: absolute;
+			background: #111;
+			height: 2px;
+			width: 0;
+			top: 50%;
+			margin: -1px 4px 0;
+			transition: all .3s ease;
+		}
+
+		#oc-watch.owl-carousel .owl-dots .owl-dot.active {
+			margin-right: 34px;
+			opacity: 1 !important;
+		}
+
+		#oc-watch .owl-dot.active:after { width: 26px; }
+
+		#oc-watch .owl-dot:before {
+			counter-increment: dots;
+			content: counter(dots, decimal-leading-zero);
+		}
+
+		#slider {
+			-webkit-transition: background-color .4s ease;
+			-o-transition: background-color .4s ease;
+			transition: background-color .4s ease;
+		}
+
+		@-webkit-keyframes mouse-scroll {
+			0% { top: 10%; opacity: 1; }
+			100% { top: 30%; opacity: 0; }
+		}
+		@keyframes mouse-scroll {
+			0% { top: 10%; opacity: 1; }
+			100% { top: 30%; opacity: 0; }
+		}
+
+		@-webkit-keyframes scroll-mouse {
+		    from { transform: translateY(-7px); }
+		    to { transform: translateY(0); }
+		}
+		@keyframes scroll-mouse {
+		    from { transform: translateY(-7px); }
+		    to { transform: translateY(0); }
+		}
+		.scroll-inner {
+			position: relative;
+			width: 26px;
+			height: 40px;
+			border-radius: 18px;
+			border: 2px solid #555;
+			-webkit-animation: scroll-mouse 1s infinite;
+			animation: scroll-mouse 1s infinite;
+		}
+
+		.scroll-wheel {
+			position: absolute;
+			top: 10%;
+			left: 50%;
+			width: 6px;
+			height: 6px;
+			border-radius: 50%;
+			transform: translateX(-50%);
+			background-color: #555;
+			-webkit-animation: mouse-scroll 1s infinite;
+			-moz-animation: mouse-scroll 1s infinite;
+			-o-animation: mouse-scroll 1s infinite;
+			animation: mouse-scroll 1s infinite;
+		}
+
+		.one-page-arrow {
+			bottom: 40px;
+			right: 40px;
+			left: auto;
+		}
+
+	</style>
+
+</head>
+
+<body class="stretched side-push-panel">
+
+	<div class="body-overlay"></div>
+
+	<div id="side-panel" class="bgchanger">
+
+		<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon-line-cross"></i></a></div>
+
+		<div class="side-panel-wrap">
+
+			<div class="widget widget_links clearfix">
+
+				<h4>About Canvas</h4>
+
+				<div style="font-size: 14px; line-height: 1.7;">
+					<address style="line-height: 1.7;">
+						795 Folsom Ave, Suite 600<br>
+						San Francisco, CA 94107<br>
+					</address>
+
+					<div class="clear topmargin-sm"></div>
+
+					<abbr title="Phone Number">Phone:</abbr> (1) 8547 632521<br>
+					<abbr title="Fax">Fax:</abbr> (1) 11 4752 1433<br>
+					<abbr title="Email Address">Email:</abbr> info@canvas.com
+				</div>
+
+			</div>
+
+			<div class="widget clearfix">
+
+				<h4>Connect Socially</h4>
+
+				<a href="#" class="social-icon si-small si-colored si-facebook" title="Facebook">
+					<i class="icon-facebook"></i>
+					<i class="icon-facebook"></i>
+				</a>
+				<a href="#" class="social-icon si-small si-colored si-twitter" title="Twitter">
+					<i class="icon-twitter"></i>
+					<i class="icon-twitter"></i>
+				</a>
+				<a href="#" class="social-icon si-small si-colored si-github" title="Github">
+					<i class="icon-github"></i>
+					<i class="icon-github"></i>
+				</a>
+				<a href="#" class="social-icon si-small si-colored si-pinterest" title="Pinterest">
+					<i class="icon-pinterest"></i>
+					<i class="icon-pinterest"></i>
+				</a>
+				<a href="#" class="social-icon si-small si-colored si-forrst" title="Forrst">
+					<i class="icon-forrst"></i>
+					<i class="icon-forrst"></i>
+				</a>
+				<a href="#" class="social-icon si-small si-colored si-linkedin" title="LinkedIn">
+					<i class="icon-linkedin"></i>
+					<i class="icon-linkedin"></i>
+				</a>
+				<a href="#" class="social-icon si-small si-colored si-gplus" title="Google Plus">
+					<i class="icon-gplus"></i>
+					<i class="icon-gplus"></i>
+				</a>
+				<a href="#" class="social-icon si-small si-colored si-instagram" title="Instagram">
+					<i class="icon-instagram"></i>
+					<i class="icon-instagram"></i>
+				</a>
+				<a href="#" class="social-icon si-small si-colored si-flickr" title="Flickr">
+					<i class="icon-flickr"></i>
+					<i class="icon-flickr"></i>
+				</a>
+				<a href="#" class="social-icon si-small si-colored si-skype" title="Skype">
+					<i class="icon-skype"></i>
+					<i class="icon-skype"></i>
+				</a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header transparent-header border-full-header header-size-custom" data-sticky-shrink="false" data-sticky-offset="full" data-sticky-offset-negative="650">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html" class="standard-logo" data-dark-logo="one-page/images/logo_medevo.svg"><img src="one-page/images/logo_medevo.svg" alt="Canvas Logo"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="one-page/images/logo_medevo.svg"><img src="one-page/images/logo_medevo.svg" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						<div class="header-misc">
+							<button class="button button-circle fw-medium ms-0"> Reservation Now </button>
+						</div>
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="one-page-menu menu-container" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#wrapper"><div>Home</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-about"><div>About</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-specialist"><div>Specialist</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-feature"><div>Feature</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-partner"><div>Partner</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-tutorial"><div>Tutorial</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-testimonial"><div>Testimonial</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-faq"><div>FAQ</div></a>
+								</li>
+								<li class="menu-item">
+									<a href="#" class="menu-link" data-href="#section-contact"><div>Contact</div></a>
+								</li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element min-vh-100 bgchanger include-header bg-linear-1">
+			<div class="slider-inner">
+
+				<div class="vertical-middle slider-element-fade">
+					<div class="container text-start py-5">
+						<div class="row align-items-center">
+							<div class="col-md-6 text-center text-md-start">
+								<div class="emphasis-title bottommargin-sm">
+									<h1 class="fw-900" data-animate="fadeInUp" data-delay="100">
+										For A Better Life,<br>
+										Meet The Best Doctor.
+									</h1>
+									<p data-animate="fadeInUp" data-delay="200" class="topmargin-sm mb-0 fc-muted" style="max-width:700px; line-height: 1.7;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis non morbi eget id. Porta in mattis tellus vel nisl, amet pharetra rhoncus.</p>
+								</div>
+								<div class="mb-5">
+									<div class="row">
+										<div class="col" data-animate="fadeInUp" data-delay="400">
+											<div class="counter counter-small">
+												<span class="fc-primary fw-bold mb-1" data-from="10" data-to="50" data-refresh-interval="10" data-speed="2000" data-comma="true"></span>
+											</div>
+											<span class="fc-muted">
+												Hospitals
+											</span>
+										</div>
+										<div class="col" data-animate="fadeInUp" data-delay="400">
+											<div class="counter counter-small">
+												<span class="fc-primary fw-bold mb-1" data-from="10" data-to="135" data-refresh-interval="10" data-speed="2000" data-comma="true"></span>
+											</div>
+											<span class="fc-muted">
+												Doctors
+											</span>
+										</div>
+										<div class="col" data-animate="fadeInUp" data-delay="400">
+											<div class="counter counter-small">
+												<span class="fc-primary fw-bold mb-1" data-from="10" data-to="472" data-refresh-interval="10" data-speed="2000" data-comma="true"></span>
+											</div>
+											<span class="fc-muted">
+												Specialists
+											</span>
+										</div>
+										<div class="col" data-animate="fadeInUp" data-delay="400">
+											<div class="counter counter-small">
+												<span class="fc-primary fw-bold mb-1" data-from="10" data-to="20478" data-refresh-interval="10" data-speed="2000" data-comma="true"></span>
+											</div>
+											<span class="fc-muted">
+												Visits per week
+											</span>
+										</div>
+									</div>
+								</div>
+								<a data-animate="fadeInUp" data-delay="800" href="#" class="button button-dark button-circle button-large fw-medium ms-0" data-scrollto="#section-works" data-easing="easeInOutExpo" data-speed="1250" data-offset="70"><i class="icon-apple"></i>App Store</a>
+								<a data-animate="fadeInUp" data-delay="900" href="#" class="button button-dark button-circle button-large fw-medium" data-scrollto="#section-works" data-easing="easeInOutExpo" data-speed="1250" data-offset="70"><i class="icon-googleplay"></i>Google Play</a>
+							</div>
+
+							<div data-animate="fadeInUp" data-delay="100" class="col-md-6 text-end">
+								<img src="one-page/images/doctor_banner.svg" alt="Watch">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" class="one-page-arrow">
+					<div class="scroll-inner">
+				    	<div class="scroll-wheel"></div>
+				  </div>
+				</a>
+
+			</div>
+		</section><!-- #slider end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap py-0">
+
+				<div id="section-about" class="page-section bg-linear-2 pt-6">
+
+					<div class="container clearfix">
+						<div class="row align-items-center">
+							<div data-animate="fadeInUp" data-delay="100" class="col-md-6">
+								<img src="one-page/images/doctor_about.svg" alt="Watch">
+							</div>
+
+							<div class="col-md-6">
+								<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">About</h5>
+								<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="200">what is Medevo ?</h2>
+								<p data-animate="fadeInUp" data-delay="300">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis a quam odio sollicitudin. Aenean amet consequat a tincidunt. Sem malesuada quam aliquam turpis porttitor hendrerit donec viverra feugiat. Malesuada tellus semper ut quam. Id volutpat convallis quis nibh vulputate sapien blandit. Consectetur consequat fusce neque mollis volutpat cras. Ornare tempor sed ultrices egestas quis donec dignissim. Dolor et at est nullam tristique. Orci in ut amet nec urna rutrum volutpat. Est pharetra ullamcorper fermentum sit quam mattis sed mollis.
+								</p>
+								<button data-animate="fadeInUp" data-delay="400" class="button button-circle button-large fw-medium">Learn More</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="section-specialist" class="page-section specialist pt-6">
+
+					<div class="center">
+						<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">Specialist</h5>
+						<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="200">Access a variety of specialty coverage</h2>
+					</div>
+
+					<div data-animate="fadeInUp" data-delay="200" id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-nav="false" data-autoplay="4000" data-speed="1000" data-loop="true" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
+						
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Dermatologists
+							</div>
+						</div>
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Weight Loss
+							</div>
+						</div>
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Diabetes & CGM
+							</div>
+						</div>
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Allergists
+							</div>
+						</div>
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Obstetrician/gynecologists
+							</div>
+						</div>
+
+					</div>
+
+					<div data-animate="fadeInUp" data-delay="300" id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-nav="false" data-autoplay="5000" data-speed="1000" data-loop="true" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
+						
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Cardiologists
+							</div>
+						</div>
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Ophthalmologists
+							</div>
+						</div>
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Endocrinologists
+							</div>
+						</div>
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Gastroenterologists
+							</div>
+						</div>
+						<div class="feature-chip align-items-center">
+							<div class="chip-icon">
+								<i class="icon-check"></i>
+							</div>
+							<div class="chip-content">
+								Urologists
+							</div>
+						</div>
+
+					</div>
+
+					<div class="center mt-5">
+						<h3 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="400">
+							Don't see your specialty? <br>
+							We may cover it too.
+						</h3>
+						<button data-animate="fadeInUp" data-delay="500" class="button button-circle button-large fw-medium ms-0">See More Specialist</button>
+						<span data-animate="fadeInUp" data-delay="600" class="mx-2">
+							Or
+						</span>
+						<a href="#" data-scrollto="#section-contact" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">
+							<button data-animate="fadeInUp" data-delay="700" class="button button-border button-circle button-large fw-medium">Contact Us</button>
+						</a>
+					</div>
+
+				</div>
+
+				<div id="section-feature" class="page-section pt-6 feature">
+
+					<div class="container clearfix">
+						<div class="row align-items-center mb-6">
+							<div class="col-md-6 pe-5">
+								<div class="mb-5">
+									<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">Feature</h5>
+									<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="200">Reimagining the doctor’s visit</h2>
+									<p data-animate="fadeInUp" data-delay="300">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis a quam odio sollicitudin. Aenean amet consequat a tincidunt. Sem malesuada quam aliquam turpis porttitor hendrerit donec viverra feugiat. 
+									</p>
+								</div>
+								<div class="video-wrap" data-animate="fadeInUp" data-delay="400">
+									<video preload="none" loop autoplay muted>
+										<source src='one-page/images/videos/VideoConsult.mp4' type='video/mp4' />
+									</video>
+								</div>
+							</div>
+
+							<div class="col-md-6 ps-5 center">
+								<div class="row">
+									<div class="col-6">
+										<div class="card-feature p-4" data-animate="fadeInUp" data-delay="100">
+											<div class="square-icon">
+												<i class="bi bi-card-checklist"></i>
+											</div>
+											<h4 class="my-3">Join in Easy Steps</h4>
+											<span class="fc-muted">Registration with several stages, and various payment methods.</span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="card-feature p-4" data-animate="fadeInUp" data-delay="200">
+											<div class="square-icon">
+												<i class="bi bi-heart-pulse"></i>
+											</div>
+											<h4 class="my-3">Check Symptoms</h4>
+											<span class="fc-muted">Check your symptoms independently.</span>
+										</div>
+									</div>
+								</div>
+								<div class="row my-5">
+									<div class="col-6">
+										<div class="card-feature p-4" data-animate="fadeInUp" data-delay="300">
+											<div class="square-icon">
+												<i class="bi bi-clipboard2-pulse"></i>
+											</div>
+											<h4 class="my-3">Medical resume</h4>
+											<span class="fc-muted">Get medical resumes, prescriptions and lab referrals, directly from doctors after consultation.</span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="card-feature p-4" data-animate="fadeInUp" data-delay="400">
+											<div class="square-icon">
+												<i class="bi bi-person"></i>
+											</div>
+											<h4 class="my-3">Doctor consultation</h4>
+											<span class="fc-muted">You can do a consultation via videocall with your doctor.</span>
+										</div>
+									</div>
+								</div>
+								<button data-animate="fadeInUp" data-delay="500" class="button button-circle button-large fw-medium ms-0">See More Features </button>
+							</div>
+						</div>
+
+						<h2 class="center pt-6 mb-3 text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="100">Jumpstart your consultation <br> in just few clicks</h2>
+
+						<div id="side-navigation" class="align-items-center row my-6 gx-5 justify-content-center" data-plugin="tabs">
+
+							<div class="col-md-6 col-lg-5 pe-5">
+								<ul class="sidenav mb-0">
+									<li data-animate="fadeInUp" data-delay="200" class="ui-tabs-active">
+										<a href="#snav-content1" class="d-flex">
+											<div class="me-4">
+												<div class="rounded-icon">
+													<i class="bi bi-person-plus"></i>
+												</div>
+											</div>
+											
+											<div>
+												<h4 class="mb-3 fw-bold">Choose Your Doctor</h4>
+												<span>Register for a consultation with a few steps</span>
+											</div>
+										</a>
+									</li>
+									<li data-animate="fadeInUp" data-delay="300" class="my-4">
+										<a href="#snav-content2" class="d-flex">
+											<div class="me-4">
+												<div class="rounded-icon">
+													<i class="bi bi-play-circle"></i>
+												</div>
+											</div>
+											
+											<div>
+												<h4 class="mb-3 fw-bold">Video Consultation</h4>
+												<span>Get a hands-on consulting experience via video call</span>
+											</div>
+										</a>
+									</li>
+									<li data-animate="fadeInUp" data-delay="400">
+										<a href="#snav-content3" class="d-flex">
+											<div class="me-4">
+												<div class="rounded-icon">
+													<i class="bi bi-clipboard2-pulse"></i>
+												</div>
+											</div>
+											
+											<div>
+												<h4 class="mb-3 fw-bold">Get Medical Resume</h4>
+												<span>
+													Get medical resumes, prescriptions and medical procedures from your doctor</span>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+	
+							<div class="col-md-6 col-lg-5 ps-5">
+								<div id="snav-content1">
+									<div data-animate="fadeIn" data-delay="200">
+										<img src="one-page/images/page/phone-01.png" alt="Watch">
+									</div>
+								</div>
+	
+								<div id="snav-content2">
+									<div data-animate="fadeIn">
+										<img src="one-page/images/page/phone-02s.png" alt="Watch">
+									</div>
+								</div>
+	
+								<div id="snav-content3">
+									<div data-animate="fadeIn">
+										<img src="one-page/images/page/phone-04s.png" alt="Watch">
+									</div>
+								</div>
+							</div>
+	
+						</div>
+
+						<h2 class="center pt-6 mb-3 text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="100">Consultation with a specialist is easy</h2>
+
+						<div class="row mt-6">
+							<div class="col">
+								<div class="card-contact p-4 center" data-animate="fadeInUp" data-delay="200">
+									<div class="square-icon fw-bold">
+										1
+									</div>
+									<div>
+										<img src="one-page/images/page/step1.svg" alt="">
+									</div>
+									<h4 class="my-3">Visit Clinic Pharmaceutical Chemistry</h4>
+									<span class="fc-muted">Register at the Kimia Farma clinic of your choice.</span>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-contact p-4 center" data-animate="fadeInUp" data-delay="300">
+									<div class="square-icon fw-bold">
+										2
+									</div>
+									<div>
+										<img src="one-page/images/page/step2.svg" alt="">
+									</div>
+									<h4 class="my-3">Inspection By General practitioners</h4>
+									<span>Check with a general practitioner as usual.</span>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-contact p-4 center" data-animate="fadeInUp" data-delay="400">
+									<div class="square-icon fw-bold">
+										3
+									</div>
+									<div>
+										<img src="one-page/images/page/step3.svg" alt="">
+									</div>
+									<h4 class="my-3">If Needed Specialist Referral</h4>
+									<span>Then the general practitioner can choose a specialist doctor available on the application.</span>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-contact p-4 center" data-animate="fadeInUp" data-delay="500">
+									<div class="square-icon fw-bold">
+										4
+									</div>
+									<div>
+										<img src="one-page/images/page/step4.svg" alt="">
+									</div>
+									<h4 class="my-3">Consultation Medical specialist.</h4>
+									<span>Consult a general practitioner to a specialist via online.</span>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+
+				</div>
+
+				<div id="section-partner" class="page-section partner pt-6">
+
+					<div class="center">
+						<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">Partner</h5>
+						<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="200">we'll ensure you get the best service <br>with our partner</h2>
+					</div>
+
+					<div class="container clearfix">
+						<div class="tabs topmargin-lg clearfix" id="tab-partner">
+
+							<ul class="tab-nav clearfix justify-content-center">
+								<li data-animate="fadeInUp" data-delay="300">
+									<a href="#doctor" >
+										<div class="rounded-icon">
+											<i class="bi bi-person-plus"></i>
+										</div>
+										<h4 class="mt-3 mb-0">Doctor</h4>
+									</a>
+								</li>
+								<li data-animate="fadeInUp" data-delay="400">
+									<a href="#medical-facility">
+										<div class="rounded-icon">
+											<i class="bi bi-hospital"></i>
+										</div>
+										<h4 class="mt-3 mb-0">Medical Facility</h4>
+									</a>
+								</li>
+							</ul>
+	
+							<div class="tab-container">
+	
+								<div class="tab-content" id="doctor">
+	
+									<div class="row align-items-center mt-5">
+										<div class="col-md-4 pe-5">
+											<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">Meet our</h5>
+											<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="200">Best Doctor</h2>
+											<p data-animate="fadeInUp" data-delay="300">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis a quam odio sollicitudin.
+											</p>
+											<button data-animate="fadeInUp" data-delay="400" class="button button-circle button-large fw-medium ms-0">See More Doctors</button>
+										</div>
+
+										<div class="col-md-8 partner-type">
+
+											<div class="tabs topmargin-md clearfix" id="tab-partner-list">
+
+												<div class="sorting" data-animate="fadeInUp" data-delay="300">
+													<ul id="oc-images" class="owl-carousel carousel-widget tab-nav clearfix ps-0 mb-3" data-pagi="false" data-margin="0" data-nav="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-xl="3">
+														<li class="oc-item">
+															<a href="#all" >
+																<span>All Specialist</span>
+															</a>
+														</li>
+														<li class="oc-item">
+															<a href="#specialist-1">
+																<span>Urologists</span>
+															</a>
+														</li>
+														<li class="oc-item">
+															<a href="#specialist-1">
+																<span>Endocrinologists</span>
+															</a>
+														</li>
+														<li class="oc-item">
+															<a href="#specialist-1">
+																<span>Dermatologists</span>
+															</a>
+														</li>
+														<li class="oc-item">
+															<a href="#specialist-1">
+																<span>Allergists</span>
+															</a>
+														</li>
+														<li class="oc-item">
+															<a href="#specialist-1">
+																<span>Diabetes & CGM</span>
+															</a>
+														</li>
+														<li class="oc-item">
+															<a href="#specialist-1">
+																<span>Weight Loss</span>
+															</a>
+														</li>
+														<li class="oc-item">
+															<a href="#specialist-1">
+																<span>Ophthalmologists</span>
+															</a>
+														</li>
+														<li class="oc-item">
+															<a href="#specialist-1">
+																<span>Gastroenterologists</span>
+															</a>
+														</li>
+													</ul>
+												</div>
+
+												<div class="tab-container">
+
+													<div class="tab-content" id="all">
+
+														<div id="oc-images" class="owl-carousel image-carousel carousel-widget posts-md" data-pagi="false" data-margin="30" data-nav="true" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-xl="3">
+
+															<div class="oc-item" data-animate="fadeInUp" data-delay="100">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_1.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Samantha Wilkins</h3>
+																			<p class="text-muted">Urologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="200">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_2.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Margaret Ananda</h3>
+																			<p class="text-muted">Endocrinologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="300">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_3.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">David Handson</h3>
+																			<p class="text-muted">Dermatologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_1.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Samantha Wilkins</h3>
+																			<p class="text-muted">Urologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_2.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Margaret Ananda</h3>
+																			<p class="text-muted">Endocrinologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_3.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">David Handson</h3>
+																			<p class="text-muted">Dermatologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+									
+														</div>
+	
+													</div>
+	
+													<div class="tab-content" id="specialist-1">
+
+														<div id="oc-images" class="owl-carousel image-carousel carousel-widget posts-md" data-pagi="false" data-margin="30" data-nav="true" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-xl="3">
+
+															<div class="oc-item" data-animate="fadeInUp" data-delay="100">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_1.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Samantha Wilkins</h3>
+																			<p class="text-muted">Urologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="200">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_2.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Margaret Ananda</h3>
+																			<p class="text-muted">Urologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="300">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_3.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">David Handson</h3>
+																			<p class="text-muted">Urologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_1.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Samantha Wilkins</h3>
+																			<p class="text-muted">Urologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_2.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Margaret Ananda</h3>
+																			<p class="text-muted">Urologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/doc_3.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">David Handson</h3>
+																			<p class="text-muted">Urologists</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+									
+														</div>
+	
+													</div>
+	
+												</div>
+												
+											</div>
+
+										</div>
+									</div>
+	
+								</div>
+	
+								<div class="tab-content" id="medical-facility">
+	
+									<div class="row align-items-center mt-5">
+										<div class="col-md-4 pe-5">
+											<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">Visit our</h5>
+											<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="200">Best Medical Facility</h2>
+											<p data-animate="fadeInUp" data-delay="300">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis a quam odio sollicitudin.
+											</p>
+											<button data-animate="fadeInUp" data-delay="400" class="button button-circle button-large fw-medium ms-0">See More Medical Facility</button>
+										</div>
+
+										<div class="col-md-8 partner-type">
+
+											<div class="tabs topmargin-md clearfix" id="tab-partner-list">
+
+												<div class="sorting" data-animate="fadeInUp" data-delay="300">
+													<ul class="tab-nav clearfix ps-0 mb-3">
+														<li>
+															<a href="#all-medical-facility" >
+																<span>All Medical Facility</span>
+															</a>
+														</li>
+														<li>
+															<a href="#hospital">
+																<span>Hospital</span>
+															</a>
+														</li>
+														<li>
+															<a href="#clinic">
+																<span>Clinic</span>
+															</a>
+														</li>
+														<li>
+															<a href="#pharmacy">
+																<span>Pharmacy</span>
+															</a>
+														</li>
+													</ul>
+												</div>
+
+												<div class="tab-container">
+
+													<div class="tab-content" id="all-medical-facility">
+
+														<div id="oc-images" class="owl-carousel image-carousel carousel-widget posts-md" data-pagi="false" data-margin="30" data-nav="true" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-xl="3">
+
+															<div class="oc-item" data-animate="fadeInUp" data-delay="100">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/rs.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Chinook Region Hospital</h3>
+																			<p class="text-muted">Hospital</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="200">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/klinik.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Klinik Mitra Tiga Saudara</h3>
+																			<p class="text-muted">Clinic</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="300">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/apotek.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Apotek Guardian Cihampelas Walk</h3>
+																			<p class="text-muted">Pharmacy</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/rs.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Chinook Region Hospital</h3>
+																			<p class="text-muted">Hospital</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/klinik.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Klinik Mitra Tiga Saudara</h3>
+																			<p class="text-muted">Clinic</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/apotek.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Apotek Guardian Cihampelas Walk</h3>
+																			<p class="text-muted">Pharmacy</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+									
+														</div>
+	
+													</div>
+
+													<div class="tab-content" id="hospital">
+
+														<div id="oc-images" class="owl-carousel image-carousel carousel-widget posts-md" data-pagi="false" data-margin="30" data-nav="true" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-xl="3">
+
+															<div class="oc-item" data-animate="fadeInUp" data-delay="100">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/rs.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Chinook Region Hospital</h3>
+																			<p class="text-muted">Hospital</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="200">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/rs.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Chinook Region Hospital</h3>
+																			<p class="text-muted">Hospital</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="300">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/rs.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Chinook Region Hospital</h3>
+																			<p class="text-muted">Hospital</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/rs.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Chinook Region Hospital</h3>
+																			<p class="text-muted">Hospital</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/rs.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Chinook Region Hospital</h3>
+																			<p class="text-muted">Hospital</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/rs.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Chinook Region Hospital</h3>
+																			<p class="text-muted">Hospital</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+									
+														</div>
+	
+													</div>
+	
+													<div class="tab-content" id="clinic">
+
+														<div id="oc-images" class="owl-carousel image-carousel carousel-widget posts-md" data-pagi="false" data-margin="30" data-nav="true" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-xl="3">
+
+															<div class="oc-item" data-animate="fadeInUp" data-delay="100">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/klinik.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Klinik Mitra Tiga Saudara</h3>
+																			<p class="text-muted">Clinic</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="200">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/klinik.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Klinik Mitra Tiga Saudara</h3>
+																			<p class="text-muted">Clinic</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="300">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/klinik.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Klinik Mitra Tiga Saudara</h3>
+																			<p class="text-muted">Clinic</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/klinik.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Klinik Mitra Tiga Saudara</h3>
+																			<p class="text-muted">Clinic</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/klinik.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Klinik Mitra Tiga Saudara</h3>
+																			<p class="text-muted">Clinic</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/klinik.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Klinik Mitra Tiga Saudara</h3>
+																			<p class="text-muted">Clinic</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+									
+														</div>
+	
+													</div>
+
+													<div class="tab-content" id="pharmacy">
+
+														<div id="oc-images" class="owl-carousel image-carousel carousel-widget posts-md" data-pagi="false" data-margin="30" data-nav="true" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-xl="3">
+
+															<div class="oc-item" data-animate="fadeInUp" data-delay="100">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/apotek.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Apotek Guardian Cihampelas Walk</h3>
+																			<p class="text-muted">Pharmacy</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="200">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/apotek.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Apotek Guardian Cihampelas Walk</h3>
+																			<p class="text-muted">Pharmacy</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item" data-animate="fadeInUp" data-delay="300">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/apotek.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Apotek Guardian Cihampelas Walk</h3>
+																			<p class="text-muted">Pharmacy</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/apotek.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Apotek Guardian Cihampelas Walk</h3>
+																			<p class="text-muted">Pharmacy</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/apotek.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Apotek Guardian Cihampelas Walk</h3>
+																			<p class="text-muted">Pharmacy</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="oc-item">
+																<a href="#">
+																	<div class="card-small">
+																		<img class="full-width" src="one-page/images/magazine/thumb/apotek.jpg" alt="Image">
+																		<div class="my-3">
+																			<h3 class="mb-2">Apotek Guardian Cihampelas Walk</h3>
+																			<p class="text-muted">Pharmacy</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+									
+														</div>
+	
+													</div>
+	
+												</div>
+												
+											</div>
+
+										</div>
+									</div>
+
+								</div>
+	
+							</div>
+	
+						</div>
+					</div>
+
+				</div>
+
+				<div id="section-tutorial" class="page-section py-0 tutorial">
+
+					<div class="tutorial-bg my-0 border-0">
+
+						<div class="container clearfix">
+	
+							<div class="center">
+								<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="100">Lets Watch Our Tutorial</h2>
+								<div data-animate="fadeInUp" data-delay="200">
+									<a href="https://www.youtube.com/watch?v=fJ9rUzIMcZQ" data-lightbox="iframe">
+										<div class="m-auto play-icon">
+											<i class="icon-play"></i>
+										</div>
+									</a>
+								</div>
+							</div>
+	
+						</div>
+	
+					</div>
+
+					<div class="portfolio-item col-12 pf-media pf-icons">
+						<div class="grid-inner">
+							<div class="portfolio-image" style="background-image: url('one-page/images/page/tutorial.jpg');" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;"></div>
+							<!-- Overlay: Start -->
+							<div class="bg-overlay">
+								<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+									<!-- Decription: Start -->
+									<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+										<h3><a href="portfolio-single.html">Open Imagination</a></h3>
+									</div>
+									<!-- Description: Start -->
+									<div class="d-flex">
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInUpSmall" data-hover-animate-out="fadeOutDownSmall" data-hover-speed="350"><i class="icon-line-arrow-right"></i></a>
+									</div>
+								</div>
+								<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+							</div>
+							<!-- Overlay: End -->
+						</div>
+					</div>
+
+				</div>
+
+				<div id="section-testimonial" class="page-section testi bg-linear-3">
+
+					<div class="container clearfix">
+
+						<div class="row clearfix align-items-center">
+
+							<div data-animate="fadeInLeft" data-delay="100" class="col-md-6 text-start">
+								<img src="one-page/images/page/testi.png" alt="Watch">
+							</div>
+		
+							<div class="col-lg-6 my-6">
+								<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">Testimonial</h5>
+								<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="200">what our patient say?</h2>
+
+								<div data-animate="fadeInUp" data-delay="300" id="oc-images" class="owl-carousel image-carousel carousel-widget posts-md" data-pagi="true" data-margin="30" data-nav="false" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-xl="1" data-autoplay="5000" data-speed="1000" data-loop="true">
+
+									<div class="oc-item">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis a quam odio sollicitudin. Aenean amet consequat a tincidunt. Sem malesuada quam aliquam turpis porttitor hendrerit donec viverra feugiat. Malesuada tellus semper ut quam. Id volutpat convallis quis nibh vulputate sapien blandit.
+										</p>
+										<div class="align-items-center row g-0">
+											<div class="col-auto">
+												<div class="entry-image mb-0">
+													<img class="rounded-circle" src="one-page/images/magazine/small/avatar.png" alt="Image">
+												</div>
+											</div>
+											<div class="col ps-3">
+												<div class="text-muted rating">
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+												</div>
+												<div class="entry-title my-1">
+													<h4>Richard Desperaldo Adios</h4>
+												</div>
+												<div class="entry-meta text-muted">
+													<span>Bandung, Jawa Barat</span>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="oc-item">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis a quam odio sollicitudin. Aenean amet consequat a tincidunt. Sem malesuada quam aliquam turpis porttitor hendrerit donec viverra feugiat. Malesuada tellus semper ut quam. Id volutpat convallis quis nibh vulputate sapien blandit.
+										</p>
+										<div class="align-items-center row g-0">
+											<div class="col-auto">
+												<div class="entry-image mb-0">
+													<img class="rounded-circle" src="one-page/images/magazine/small/avatar.png" alt="Image">
+												</div>
+											</div>
+											<div class="col ps-3">
+												<div class="text-muted rating">
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+												</div>
+												<div class="entry-title my-1">
+													<h4>Richard Desperaldo Adios</h4>
+												</div>
+												<div class="entry-meta text-muted">
+													<span>Bandung, Jawa Barat</span>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="oc-item">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis a quam odio sollicitudin. Aenean amet consequat a tincidunt. Sem malesuada quam aliquam turpis porttitor hendrerit donec viverra feugiat. Malesuada tellus semper ut quam. Id volutpat convallis quis nibh vulputate sapien blandit.
+										</p>
+										<div class="align-items-center row g-0">
+											<div class="col-auto">
+												<div class="entry-image mb-0">
+													<img class="rounded-circle" src="one-page/images/magazine/small/avatar.png" alt="Image">
+												</div>
+											</div>
+											<div class="col ps-3">
+												<div class="text-muted rating">
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+												</div>
+												<div class="entry-title my-1">
+													<h4>Richard Desperaldo Adios</h4>
+												</div>
+												<div class="entry-meta text-muted">
+													<span>Bandung, Jawa Barat</span>
+												</div>
+											</div>
+										</div>
+									</div>
+			
+								</div>
+								
+							</div>
+		
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="section-faq" class="page-section faq bg-linear-4 pt-6">
+					<div class="container clearfix">
+
+						<div class="center">
+							<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">Faq</h5>
+							<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="200">Common Question & Answer</h2>
+						</div>
+						
+						<div class="row clearfix mt-6">
+
+							<div class="col-lg-6">
+
+								<div class="accordion mb-0">
+
+									<div class="accordion-card" data-animate="fadeInUp" data-delay="300">
+										<div class="accordion-header">
+											<div class="accordion-icon">
+												<i class="accordion-closed icon-chevron-down"></i>
+												<i class="accordion-open icon-chevron-up"></i>
+											</div>
+											<div class="accordion-title">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+											</div>
+										</div>
+										<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
+									</div>
+
+									<div class="accordion-card" data-animate="fadeInUp" data-delay="400">
+										<div class="accordion-header">
+											<div class="accordion-icon">
+												<i class="accordion-closed icon-chevron-down"></i>
+												<i class="accordion-open icon-chevron-up"></i>
+											</div>
+											<div class="accordion-title">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+											</div>
+										</div>
+										<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
+									</div>
+
+									<div class="accordion-card" data-animate="fadeInUp" data-delay="500">
+										<div class="accordion-header">
+											<div class="accordion-icon">
+												<i class="accordion-closed icon-chevron-down"></i>
+												<i class="accordion-open icon-chevron-up"></i>
+											</div>
+											<div class="accordion-title">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+											</div>
+										</div>
+										<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
+									</div>
+
+									<div class="accordion-card" data-animate="fadeInUp" data-delay="600">
+										<div class="accordion-header">
+											<div class="accordion-icon">
+												<i class="accordion-closed icon-chevron-down"></i>
+												<i class="accordion-open icon-chevron-up"></i>
+											</div>
+											<div class="accordion-title">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+											</div>
+										</div>
+										<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
+									</div>
+
+									<div class="accordion-card" data-animate="fadeInUp" data-delay="700">
+										<div class="accordion-header">
+											<div class="accordion-icon">
+												<i class="accordion-closed icon-chevron-down"></i>
+												<i class="accordion-open icon-chevron-up"></i>
+											</div>
+											<div class="accordion-title">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+											</div>
+										</div>
+										<div class="accordion-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div data-animate="fadeInRight" data-delay="300" class="col-md-6 text-end">
+								<img src="one-page/images/doctor_faq.png" alt="Watch">
+							</div>
+
+						</div>
+
+						<div class="center mt-6">
+							<h3 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="800">
+								Don't see the answer?
+							</h3>
+							<button data-animate="fadeInUp" data-delay="900" class="button button-circle button-large fw-medium">See More Question</button>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="section-contact" class="page-section pt-0 contact">
+
+					<div class="row mx-0 bottommargin-lg align-items-stretch bg-gray">
+						<div class="col-md-6">
+							<div class="col-padding">
+								<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">Contact Us</h5>
+								<h2 class="text-capitalize fw-bold font-body mb-5" data-animate="fadeInUp" data-delay="200">Have Any Questions?<br> Contact With Us</h2>
+
+								<div class="form-widget">
+
+									<div class="form-result"></div>
+	
+									<form class="mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+	
+										<div class="form-process">
+											<div class="css3-spinner">
+												<div class="css3-spinner-scaler"></div>
+											</div>
+										</div>
+	
+										<div class="row">
+											<div class="row" data-animate="fadeInUp" data-delay="300">
+												<div class="col-md-4 form-group">
+													<label for="template-contactform-name">Name <small>*</small></label>
+													<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required"/>
+												</div>
+		
+												<div class="col-md-4 form-group">
+													<label for="template-contactform-email">Email <small>*</small></label>
+													<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+												</div>
+		
+												<div class="col-md-4 form-group">
+													<label for="template-contactform-phone">Phone</label>
+													<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+												</div>
+		
+												<div class="w-100"></div>
+		
+												<div class="col form-group">
+													<label for="template-contactform-subject">Subject <small>*</small></label>
+													<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
+												</div>
+		
+												<div class="w-100"></div>
+		
+												<div class="col-12 form-group">
+													<label for="template-contactform-message">Message <small>*</small></label>
+													<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+												</div>
+		
+												<div class="col-12 form-group d-none">
+													<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+												</div>
+											</div>
+	
+											<div class="col-12">
+												<button data-animate="fadeInUp" data-delay="400" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit" class="button button-circle button-large fw-medium">Send Message</button>
+											</div>
+										</div>
+	
+										<input type="hidden" name="prefix" value="template-contactform-">
+	
+									</form>
+	
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 d-none d-md-block px-0" id="map-container-google-1" class="z-depth-1-half map-container">
+							<iframe data-animate="fadeInRight" data-delay="100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.926352745875!2d107.5982121147204!3d-6.899411595014623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e643100f64e5%3A0xb642fd4d3a68face!2sBio%20Farma!5e0!3m2!1sen!2sid!4v1649660480054!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+
+					<div class="container clearfix">
+
+						<div class="row">
+							<div class="col-4">
+								<div class="card-contact p-4 center" data-animate="fadeInUp" data-delay="100">
+									<div class="square-icon">
+										<i class="bi bi-geo-alt-fill"></i>
+									</div>
+									<h4 class="my-3">Head Office</h4>
+									<span class="fc-muted">Jl. Pasteur No. 28, Bandung 40161, Jawa Barat Indonesia</span>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="card-contact p-4 center" data-animate="fadeInUp" data-delay="200">
+									<div class="square-icon">
+										<i class="bi bi-envelope-fill"></i>
+									</div>
+									<h4 class="my-3">Email</h4>
+									<a href="#">
+										<span>mail@medevo.co.id</span>
+									</a>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="card-contact p-4 center" data-animate="fadeInUp" data-delay="200">
+									<div class="square-icon">
+										<i class="bi bi-telephone-fill"></i>
+									</div>
+									<h4 class="my-3">Phone</h4>
+									<a href="#">
+										<span>+62 22-2033755</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="container download pt-6">
+					<div class="row align-items-center">
+
+						<div class="col-lg-6">
+
+							<div class="position-relative overflow-hidden phone">
+								<img src="one-page/images/page/Phone-1.png" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+								<img src="one-page/images/page/Phone-2.png" style="top: 0; left: 0; min-width: 100%; min-height: 100%;" data-animate="fadeInUp" data-delay="400" alt="iPhone" class="position-absolute">
+							</div>
+
+						</div>
+
+						<div class="col-lg-6">
+							<h5 class="text-uppercase ls4 fw-normal mb-2 fc-primary" data-animate="fadeInUp" data-delay="100">Using Medevo</h5>
+							<h2 class="text-capitalize fw-bold font-body" data-animate="fadeInUp" data-delay="200">your health in one hand.<br>Download Medevo Now.</h2>
+							<p data-animate="fadeInUp" data-delay="300">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis a quam odio sollicitudin. Aenean amet consequat a tincidunt.
+							</p>
+							<a data-animate="fadeInUp" data-delay="800" href="#" class="button button-dark button-circle button-large fw-medium ms-0" data-scrollto="#section-works" data-easing="easeInOutExpo" data-speed="1250" data-offset="70"><i class="icon-apple"></i>App Store</a>
+								<a data-animate="fadeInUp" data-delay="900" href="#" class="button button-dark button-circle button-large fw-medium" data-scrollto="#section-works" data-easing="easeInOutExpo" data-speed="1250" data-offset="70"><i class="icon-googleplay"></i>Google Play</a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark footer">
+			<div class="container">
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="widget clearfix">
+						<div class="row gx-5">
+
+							<div class="col-3">
+								<div class="clearfix mb-5">
+									<img src="one-page/images/logo_medevo_white.svg" alt="Image" class="">
+								</div>
+								<div class="clearfix">
+									<p class="mb-0">Medevo is an app that helps you to meet and do consultation with your doctor.</p>
+								</div>
+							</div>
+
+							<div class="col-6">
+								<div class="row">
+
+									<div class="col px-5">
+										<ul>
+											<li class="mb-3"><a href="#" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" data-scrollto="#wrapper">Home</a></li>
+											<li class="mb-3"><a href="#" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" data-scrollto="#section-about">About</a></li>
+											<li class="mb-3"><a href="#" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" data-scrollto="#section-specialist">Specialist</a></li>
+										</ul>
+									</div>
+
+									<div class="col px-5">
+										<ul>
+											<li class="mb-3"><a href="#" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" data-scrollto="#section-feature">Feature</a></li>
+											<li class="mb-3"><a href="#" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" data-scrollto="#section-partner">Partner</a></li>
+											<li class="mb-3"><a href="#" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" data-scrollto="#section-tutorial">Tutorial</a></li>
+										</ul>
+									</div>
+
+									<div class="col px-5">
+										<ul>
+											<li class="mb-3"><a href="#" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" data-scrollto="#section-testimonial">Testimonial</a></li>
+											<li class="mb-3"><a href="#" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" data-scrollto="#section-faq">FAQ</a></li>
+											<li class="mb-3"><a href="#" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" data-scrollto="#section-contact">Contact</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+
+
+							<div class="col-3">
+
+								<div class="subscribe-widget clearfix">
+									<p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
+									<div class="widget-subscribe-form-result"></div>
+									<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
+										<div class="input-group mx-auto">
+											<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+											<button class="btn bg-primary dark" type="submit">Subscribe</button>
+										</div>
+									</form>
+								</div>
+	
+							</div>
+						</div>
+
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row justify-content-between d-flex align-items-center">
+						<div class="col-12 col-lg-auto text-center text-lg-start">
+							Copyrights &copy; 2020 All Rights Reserved by <a href="">Medevo.</a>
+						</div>
+
+						<div class="col-12 col-lg-auto text-center text-lg-end d-flex align-items-center">
+							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+
+							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-pinterest">
+								<i class="icon-pinterest"></i>
+								<i class="icon-pinterest"></i>
+							</a>
+
+							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-vimeo">
+								<i class="icon-vimeo"></i>
+								<i class="icon-vimeo"></i>
+							</a>
+
+							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-github">
+								<i class="icon-github"></i>
+								<i class="icon-github"></i>
+							</a>
+
+							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-yahoo">
+								<i class="icon-yahoo"></i>
+								<i class="icon-yahoo"></i>
+							</a>
+
+							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+	<script src="https://maps.google.com/maps/api/js?key=YOUR-API-KEY"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+
+		jQuery(window).on( 'pluginCarouselReady', function() {
+			var owlWatch	= $('#oc-watch'),
+				owlWatchbg	= $('.bgchanger');
+
+			owlWatch.on('translated.owl.carousel changed.owl.carousel', function(event) {
+				var bgcolor = owlWatch.find('.active img').attr('data-bg');
+				owlWatchbg.css({ 'background-color': bgcolor });
+			});
+		});
+
+
+	</script>
+
+</body>
+</html>
